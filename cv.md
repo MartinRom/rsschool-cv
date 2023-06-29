@@ -25,3 +25,6 @@ private ResponseResault XReport()
 ```
 ### Education
 Institute of Information Technology
+### Languages
+* Russian - native
+* English - A1
