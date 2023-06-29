@@ -24,7 +24,7 @@ private ResponseResault XReport()
 }
 ```
 ### Education
-Institute of Information Technology
+Institute of Information Technology (Minsk)
 ### Languages
 * Russian - native
 * English - A1
