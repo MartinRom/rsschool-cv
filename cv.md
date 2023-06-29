@@ -6,3 +6,22 @@
 * __Discord:__ Martin2#0832
 * __GitHub:__ MartinRom
 
+### About me
+I do technical support, integration of cash register equipment, POS systems, bank terminals with software. I support the passing of software certification in testing centers.
+### My skills
+* basics HTML
+* basics JS
+### Code Example
+```cs
+private ResponseResault XReport()
+{
+    string sFullHexCommand = "04 0D";
+    byte[] byteFullCommand = GetByteOut(sFullHexCommand);
+    UDPSocket.SendTo(byteFullCommand, byteFullCommand.Length, SocketFlags.None, IpKsaHostEnd);
+    Recieve();
+    ResponseResault rResault = GetResponseFromKsa("XReport");
+    return rResault;
+}
+```
+### Education
+Institute of Information Technology
