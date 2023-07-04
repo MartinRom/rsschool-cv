@@ -1,1 +1,1 @@
-https://MartinRom.github.io/rsschool-cv/cv
+https://MartinRom.github.io/rsschool-cv/
