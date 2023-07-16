@@ -1,0 +1,84 @@
+/* forum-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/forum-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+/* inter-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+html{
+    box-sizing: border-box;
+}
+*,*::before, *::after{
+box-sizing: inherit;
+}
+
+.body{
+    font-family: Inter;
+}
+
+
+.wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #0C0C0E;
+}
+
+
+.header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    /*align-items: */
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.header__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__item{
+    margin-right: 30px;
+}
+.header__item:last-child{
+    margin-right: 0;
+}
+
+.header__link{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 250% */
+    text-decoration: none;
+}
+
+.header__link:hover,.header__link:focus, .header__link:active {
+opacity: 0.75;
+}
+
+.header__logo-link{
+    color: #FFF;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+}
+
+
